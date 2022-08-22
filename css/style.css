@@ -1,0 +1,383 @@
+:root {
+    --accent-color:#2196F3;
+    --text-title-color:#212121;
+    --text-color:#757575;
+    --banner-color:#2F303A;
+    --white-color:#FFFFFF;
+    --button-colour: #188CE8;
+    --border-header: #ECECEC;
+    --comandos-color:#F5F4FA;
+    --primery-font:'Roboto', sans-serif;}
+
+h1, 
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;}
+
+ul,ol {margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.link {
+    text-decoration: none;}
+.list {
+        list-style: none;
+    }
+img {
+    display: block;
+}
+body {
+    font-family: var(--primery-font);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.14;
+    }
+
+/*------HEADER------*/
+.page-header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.header {
+border-bottom: 1px solid var(--border-header)
+}
+
+.nav-link {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--text-title-color);}
+ 
+.nav-contacts {
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--text-color);
+}
+
+.item-contacts:not(:last-child) {
+margin-right: 50px;}
+
+.logo-header {color: black;
+padding-top: 24px;
+padding-bottom: 24px;}
+ 
+
+.logo {font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);}
+    
+ .nav-link:hover,
+ .nav-link:focus, 
+ .current
+  {color: var(--accent-color);}
+
+.nav-contacts:hover,
+.nav-contacts:focus,
+.current
+  {color:var(--accent-color);}
+
+.page-header-container {
+    display: flex;
+    align-items: center;
+}
+
+.page-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.contacts-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.logo-head {
+    margin-right: 93px;
+}
+
+/*------BANNER WITH BUTTON------*/
+.banner {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: var(--banner-color);
+}
+
+.banner-box {
+    width: 696px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.banner-title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    color: var(--white-color);
+}
+
+.banner-button {
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: block;
+    padding: 10px 32px;
+    border-radius: 4px;
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+/*------ADVANTAGES------*/
+.our-advantages {
+    padding-top: 94px;
+}
+
+.advantages-roster {
+display: flex;
+gap: 30px;
+}
+
+.advantages-item:not(:last-child) {
+    margin-right: 30px;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+}
+
+.advanteges-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    color: var(--text-title-color);
+}
+
+.advanteges-text {
+    font-style: normal;
+    line-height: 1.71;
+    color: var(--text-color);
+}
+
+/*------ABOUT OUR------*/
+.our-products {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.products-title,
+.comandos-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: var(--text-title-color);
+}
+
+.products-work {
+    display: flex;
+    align-items: center;
+}
+
+.products-item:not(:last-child) {
+    margin-right: 30px;
+}
+/*------ABOUT COMANDOS------*/
+.our-comandos {
+    padding-bottom: 94px;
+    padding-top: 94px;
+    background-color: var(--comandos-color);
+}
+
+.comandos-team {
+    display: flex;
+    align-items: center;
+}
+
+.comandos-list:not(:last-child) {
+    margin-right: 30px;    
+}
+
+.box-color {
+    background-color: var(--white-color);
+}
+
+.work-position {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    margin-bottom: 10px;
+    color: var(--text-title-color);
+}
+
+.name-text {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--text-color);
+}
+
+/*------FOOTER------*/
+.footer-color {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: var(--banner-color);
+}
+
+.logo-footer {
+    color: var(--white-color);
+}
+
+.logo-indent {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.adress {
+    font-style: normal;
+    line-height: 1.71;
+    color: var(--white-color);
+}
+
+.footer-list:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.footer-contacts {
+    font-style: normal;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*------BUTTON-FILTER-PORTFOLIO------*/
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.portfolio-btn-roster{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.portfolio-item:not(last-child) {
+    margin-right: 8px;
+}
+
+.button-portfolio {font-family: 'Roboto',
+    sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 6px 22px;
+    margin-left: auto;
+    border: none;
+    border-radius: 4px;
+    color: var(--text-title-color);}
+
+.button-portfolio:hover,
+.button-portfolio:focus
+{background-color: var(--accent-color);
+color: var(--white-color);}
+
+.banner-button:hover,
+.banner-button:focus {
+    background-color: var(--button-colour);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.button-portfolio, 
+.hero-button {cursor:pointer;}
+
+/*------PORTFOLIO------*/
+.portfolio-work {
+    gap:30px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin-bottom: 4px;
+    color: var(--text-title-color);}
+
+.portfolio-info {
+    font-size: 16px;
+    line-height: 1.9;
+    color: var(--text-color);}
+
+.portfolio-box {
+    padding: 20px 24px;
+}
+
+
+
+
